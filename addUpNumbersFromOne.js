@@ -3,5 +3,9 @@
 //For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 
 function addUp(num) {
-	
+	let sum = 0
+	for(let i = 0; i<=num; i++){
+			sum += i
+	}
+
 }
